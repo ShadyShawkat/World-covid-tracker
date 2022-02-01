@@ -15,7 +15,7 @@
 
 .lds-ripple div {
   position: absolute;
-  border: 6px solid #134db8;
+  border: 6px solid #ffffff;
   opacity: 1;
   border-radius: 50%;
   animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
