@@ -10,7 +10,7 @@ export const fetchCountries = createAsyncThunk(
 const covidSlice = createSlice({
   name: 'covid',
   initialState: {
-    countries: {},
+    countries: [],
     loadingState: 'idle',
     error: null,
   },
@@ -26,8 +26,7 @@ const covidSlice = createSlice({
         if (state.loadingState === 'pending') {
           state.loadingState = 'idle';
         }
-        const { countries } = action.payload.dates['2022-01-31'];
-        state.countries = countries;
+        state.countries = action.payload;
         state.error = null;
       })
       .addCase(fetchCountries.rejected, (state, action) => {
