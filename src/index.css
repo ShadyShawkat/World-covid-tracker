@@ -47,6 +47,8 @@ body {
   line-height: 1.5;
   background-color: #5485e2;
   font-family: GillSans, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* A elements that don't have a class get default styles */
