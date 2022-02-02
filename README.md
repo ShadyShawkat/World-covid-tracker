@@ -1,21 +1,26 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Travelers' Hub
+# World Covid Tracker
 
-> This website allows you to reserve flight for missions and rockets into space using SpaceX's API. Built using react, redux, redux-toolkit, and Tailwind
+> Track the covid stats in every continent and each of their respective countries. Built with :
+> - React
+> - Redux-toolkit
+> - Tailwind
+> - Jest
 
-### Screenshot
+### Gif
 ![screenshot](./app-gif.gif)
 
 ## Built With
 
 - React
-- Redux (Duck pattern)
+- Redux (Redux toolkit)
 - Tailwind
+- Jest
 
 ## Live Demo
 
-[Check here the Live Demo!](https://space-travlers-hub-55.netlify.app/)
+[Check here the Live Demo!](https://world-covid-tracker-001.netlify.app/)
 
 ### Prerequisites
 
@@ -27,22 +32,16 @@
 ### Setup
 
 1. Open a command line
-2. Clone the project to your computer with `git clone git@github.com:ShadyShawkat/React-Group-Project.git`
-3. Go into the folder to the project with `cd React-Group-Project`
+2. Clone the project to your computer with `git clone git@github.com:ShadyShawkat/World-covid-tracker.git`
+3. Go into the folder to the project with `cd World-covid-tracker`
 4. Build the node modules with `npm install`. 
+5. Run the Project using `npm start`
 
 ### Usage
 
 Any change to the project should be done in the folder `src`.
 
 ## Author
-
-👤 **Will Teixeira**
-
-- GitHub: [@githubhandle](https://github.com/iwillteixeira)
-- Twitter: [@twitterhandle](https://twitter.com/iwillteixeira)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juscelinodev/)
-
 
 👤 **Shady Shawkat**
 
