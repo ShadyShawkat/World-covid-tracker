@@ -44,4 +44,16 @@ describe('Home component', () => {
     const actions = store.getActions();
     expect(actions[0]).toEqual(fetchData());
   });
+  test('Test Rendering continents', () => {
+    const tree = render(
+      <Provider store={store}>
+        <BrowserRouter>
+          <Home />
+        </BrowserRouter>
+      </Provider>,
+    );
+    expect(tree).toMatchSnapshot();
+    const listItemElements = screen.getAllByTestId('continentItem');
+    expect(listItemElements).toHaveLength(6);
+  });
 });

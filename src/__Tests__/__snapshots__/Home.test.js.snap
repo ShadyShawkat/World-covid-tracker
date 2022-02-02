@@ -1,0 +1,706 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Test Rendering continents 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex gap-3 items-center w-full justify-center pb-16 pt-6 bg-blue-dark rounded-t-lg"
+      >
+        <svg
+          class="text-8xl bg-white rounded-full"
+          enable-background="new 0 0 48 48"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          version="1"
+          viewBox="0 0 48 48"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z"
+            fill="#7CB342"
+          />
+          <path
+            d="M45,24c0,11.7-9.5,21-21,21S3,35.7,3,24S12.3,3,24,3S45,12.3,45,24z M23.8,33.7c0-0.4-0.2-0.6-0.6-0.8 c-1.3-0.4-2.5-0.4-3.6-1.5c-0.2-0.4-0.2-0.8-0.4-1.3c-0.4-0.4-1.5-0.6-2.1-0.8c-0.8,0-1.7,0-2.7,0c-0.4,0-1.1,0-1.5,0 c-0.6-0.2-1.1-1.1-1.5-1.7c0-0.2,0-0.6-0.4-0.6c-0.4-0.2-0.8,0.2-1.3,0c-0.2-0.2-0.2-0.4-0.2-0.6c0-0.6,0.4-1.3,0.8-1.7 c0.6-0.4,1.3,0.2,1.9,0.2c0.2,0,0.2,0,0.4,0.2c0.6,0.2,0.8,1,0.8,1.7c0,0.2,0,0.4,0,0.4c0,0.2,0.2,0.2,0.4,0.2 c0.2-1.1,0.2-2.1,0.4-3.2c0-1.3,1.3-2.5,2.3-2.9c0.4-0.2,0.6,0.2,1.1,0c1.3-0.4,4.4-1.7,3.8-3.4c-0.4-1.5-1.7-2.9-3.4-2.7 c-0.4,0.2-0.6,0.4-1,0.6c-0.6,0.4-1.9,1.7-2.5,1.7c-1.1-0.2-1.1-1.7-0.8-2.3c0.2-0.8,2.1-3.6,3.4-3.1c0.2,0.2,0.6,0.6,0.8,0.8 c0.4,0.2,1.1,0.2,1.7,0.2c0.2,0,0.4,0,0.6-0.2c0.2-0.2,0.2-0.2,0.2-0.4c0-0.6-0.6-1.3-1-1.7c-0.4-0.4-1.1-0.8-1.7-1.1 c-2.1-0.6-5.5,0.2-7.1,1.7s-2.9,4-3.8,6.1c-0.4,1.3-0.8,2.9-1,4.4c-0.2,1-0.4,1.9,0.2,2.9c0.6,1.3,1.9,2.5,3.2,3.4 c0.8,0.6,2.5,0.6,3.4,1.7c0.6,0.8,0.4,1.9,0.4,2.9c0,1.3,0.8,2.3,1.3,3.4c0.2,0.6,0.4,1.5,0.6,2.1c0,0.2,0.2,1.5,0.2,1.7 c1.3,0.6,2.3,1.3,3.8,1.7c0.2,0,1-1.3,1-1.5c0.6-0.6,1.1-1.5,1.7-1.9c0.4-0.2,0.8-0.4,1.3-0.8c0.4-0.4,0.6-1.3,0.8-1.9 C23.8,35.1,24,34.3,23.8,33.7z M24.2,14.3c0.2,0,0.4-0.2,0.8-0.4c0.6-0.4,1.3-1.1,1.9-1.5c0.6-0.4,1.3-1.1,1.7-1.5 c0.6-0.4,1.1-1.3,1.3-1.9c0.2-0.4,0.8-1.3,0.6-1.9c-0.2-0.4-1.3-0.6-1.7-0.8c-1.7-0.4-3.1-0.6-4.8-0.6c-0.6,0-1.5,0.2-1.7,0.8 c-0.2,1.1,0.6,0.8,1.5,1.1c0,0,0.2,1.7,0.2,1.9c0.2,1-0.4,1.7-0.4,2.7c0,0.6,0,1.7,0.4,2.1L24.2,14.3z M41.8,29 c0.2-0.4,0.2-1.1,0.4-1.5c0.2-1,0.2-2.1,0.2-3.1c0-2.1-0.2-4.2-0.8-6.1c-0.4-0.6-0.6-1.3-0.8-1.9c-0.4-1.1-1-2.1-1.9-2.9 c-0.8-1.1-1.9-4-3.8-3.1c-0.6,0.2-1,1-1.5,1.5c-0.4,0.6-0.8,1.3-1.3,1.9c-0.2,0.2-0.4,0.6-0.2,0.8c0,0.2,0.2,0.2,0.4,0.2 c0.4,0.2,0.6,0.2,1,0.4c0.2,0,0.4,0.2,0.2,0.4c0,0,0,0.2-0.2,0.2c-1,1.1-2.1,1.9-3.1,2.9c-0.2,0.2-0.4,0.6-0.4,0.8 c0,0.2,0.2,0.2,0.2,0.4c0,0.2-0.2,0.2-0.4,0.4c-0.4,0.2-0.8,0.4-1.1,0.6c-0.2,0.4,0,1.1-0.2,1.5c-0.2,1.1-0.8,1.9-1.3,2.9 c-0.4,0.6-0.6,1.3-1,1.9c0,0.8-0.2,1.5,0.2,2.1c1,1.5,2.9,0.6,4.4,1.3c0.4,0.2,0.8,0.2,1.1,0.6c0.6,0.6,0.6,1.7,0.8,2.3 c0.2,0.8,0.4,1.7,0.8,2.5c0.2,1,0.6,2.1,0.8,2.9c1.9-1.5,3.6-3.1,4.8-5.2C40.6,32.4,41.2,30.7,41.8,29z"
+            fill="#0277BD"
+          />
+        </svg>
+        <div
+          class="flex flex-col font-bold text-2xl text-white"
+        >
+          <span>
+            Total Cases: 0
+          </span>
+          <span>
+            Total Deaths: 0
+          </span>
+        </div>
+      </div>
+      <ul
+        class="grid grid-cols-2 rounded-lg overflow-hidden gap-0.5"
+      >
+        <li
+          class="continent-card"
+        >
+          <a
+            class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+            data-testid="continentItem"
+            href="/continent/Asia"
+          >
+            <svg
+              class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="md:w-1/2 w-full h-3/5 group-hover:invert"
+              src="Asia.png"
+            />
+            <div
+              class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+            >
+              <h4
+                class="self-center md:self-end"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  Asia
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                11,111
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+            data-testid="continentItem"
+            href="/continent/Africa"
+          >
+            <svg
+              class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="md:w-1/2 w-full h-3/5 group-hover:invert"
+              src="Africa.png"
+            />
+            <div
+              class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+            >
+              <h4
+                class="self-center md:self-end"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  Africa
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                22,222
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+            data-testid="continentItem"
+            href="/continent/Europe"
+          >
+            <svg
+              class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="md:w-1/2 w-full h-3/5 group-hover:invert"
+              src="Europe.png"
+            />
+            <div
+              class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+            >
+              <h4
+                class="self-center md:self-end"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  Europe
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                33,333
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+            data-testid="continentItem"
+            href="/continent/Australia-Oceania"
+          >
+            <svg
+              class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="md:w-1/2 w-full h-3/5 group-hover:invert"
+              src="Australia-Oceania.png"
+            />
+            <div
+              class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+            >
+              <h4
+                class="self-center md:self-end"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  Australia-Oceania
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                44,444
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+            data-testid="continentItem"
+            href="/continent/North America"
+          >
+            <svg
+              class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="md:w-1/2 w-full h-3/5 group-hover:invert"
+              src="North America.png"
+            />
+            <div
+              class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+            >
+              <h4
+                class="self-center md:self-end"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  North America
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                55,555
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+            data-testid="continentItem"
+            href="/continent/South America"
+          >
+            <svg
+              class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="md:w-1/2 w-full h-3/5 group-hover:invert"
+              src="South America.png"
+            />
+            <div
+              class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+            >
+              <h4
+                class="self-center md:self-end"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  South America
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                66,666
+              </span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex gap-3 items-center w-full justify-center pb-16 pt-6 bg-blue-dark rounded-t-lg"
+    >
+      <svg
+        class="text-8xl bg-white rounded-full"
+        enable-background="new 0 0 48 48"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        version="1"
+        viewBox="0 0 48 48"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z"
+          fill="#7CB342"
+        />
+        <path
+          d="M45,24c0,11.7-9.5,21-21,21S3,35.7,3,24S12.3,3,24,3S45,12.3,45,24z M23.8,33.7c0-0.4-0.2-0.6-0.6-0.8 c-1.3-0.4-2.5-0.4-3.6-1.5c-0.2-0.4-0.2-0.8-0.4-1.3c-0.4-0.4-1.5-0.6-2.1-0.8c-0.8,0-1.7,0-2.7,0c-0.4,0-1.1,0-1.5,0 c-0.6-0.2-1.1-1.1-1.5-1.7c0-0.2,0-0.6-0.4-0.6c-0.4-0.2-0.8,0.2-1.3,0c-0.2-0.2-0.2-0.4-0.2-0.6c0-0.6,0.4-1.3,0.8-1.7 c0.6-0.4,1.3,0.2,1.9,0.2c0.2,0,0.2,0,0.4,0.2c0.6,0.2,0.8,1,0.8,1.7c0,0.2,0,0.4,0,0.4c0,0.2,0.2,0.2,0.4,0.2 c0.2-1.1,0.2-2.1,0.4-3.2c0-1.3,1.3-2.5,2.3-2.9c0.4-0.2,0.6,0.2,1.1,0c1.3-0.4,4.4-1.7,3.8-3.4c-0.4-1.5-1.7-2.9-3.4-2.7 c-0.4,0.2-0.6,0.4-1,0.6c-0.6,0.4-1.9,1.7-2.5,1.7c-1.1-0.2-1.1-1.7-0.8-2.3c0.2-0.8,2.1-3.6,3.4-3.1c0.2,0.2,0.6,0.6,0.8,0.8 c0.4,0.2,1.1,0.2,1.7,0.2c0.2,0,0.4,0,0.6-0.2c0.2-0.2,0.2-0.2,0.2-0.4c0-0.6-0.6-1.3-1-1.7c-0.4-0.4-1.1-0.8-1.7-1.1 c-2.1-0.6-5.5,0.2-7.1,1.7s-2.9,4-3.8,6.1c-0.4,1.3-0.8,2.9-1,4.4c-0.2,1-0.4,1.9,0.2,2.9c0.6,1.3,1.9,2.5,3.2,3.4 c0.8,0.6,2.5,0.6,3.4,1.7c0.6,0.8,0.4,1.9,0.4,2.9c0,1.3,0.8,2.3,1.3,3.4c0.2,0.6,0.4,1.5,0.6,2.1c0,0.2,0.2,1.5,0.2,1.7 c1.3,0.6,2.3,1.3,3.8,1.7c0.2,0,1-1.3,1-1.5c0.6-0.6,1.1-1.5,1.7-1.9c0.4-0.2,0.8-0.4,1.3-0.8c0.4-0.4,0.6-1.3,0.8-1.9 C23.8,35.1,24,34.3,23.8,33.7z M24.2,14.3c0.2,0,0.4-0.2,0.8-0.4c0.6-0.4,1.3-1.1,1.9-1.5c0.6-0.4,1.3-1.1,1.7-1.5 c0.6-0.4,1.1-1.3,1.3-1.9c0.2-0.4,0.8-1.3,0.6-1.9c-0.2-0.4-1.3-0.6-1.7-0.8c-1.7-0.4-3.1-0.6-4.8-0.6c-0.6,0-1.5,0.2-1.7,0.8 c-0.2,1.1,0.6,0.8,1.5,1.1c0,0,0.2,1.7,0.2,1.9c0.2,1-0.4,1.7-0.4,2.7c0,0.6,0,1.7,0.4,2.1L24.2,14.3z M41.8,29 c0.2-0.4,0.2-1.1,0.4-1.5c0.2-1,0.2-2.1,0.2-3.1c0-2.1-0.2-4.2-0.8-6.1c-0.4-0.6-0.6-1.3-0.8-1.9c-0.4-1.1-1-2.1-1.9-2.9 c-0.8-1.1-1.9-4-3.8-3.1c-0.6,0.2-1,1-1.5,1.5c-0.4,0.6-0.8,1.3-1.3,1.9c-0.2,0.2-0.4,0.6-0.2,0.8c0,0.2,0.2,0.2,0.4,0.2 c0.4,0.2,0.6,0.2,1,0.4c0.2,0,0.4,0.2,0.2,0.4c0,0,0,0.2-0.2,0.2c-1,1.1-2.1,1.9-3.1,2.9c-0.2,0.2-0.4,0.6-0.4,0.8 c0,0.2,0.2,0.2,0.2,0.4c0,0.2-0.2,0.2-0.4,0.4c-0.4,0.2-0.8,0.4-1.1,0.6c-0.2,0.4,0,1.1-0.2,1.5c-0.2,1.1-0.8,1.9-1.3,2.9 c-0.4,0.6-0.6,1.3-1,1.9c0,0.8-0.2,1.5,0.2,2.1c1,1.5,2.9,0.6,4.4,1.3c0.4,0.2,0.8,0.2,1.1,0.6c0.6,0.6,0.6,1.7,0.8,2.3 c0.2,0.8,0.4,1.7,0.8,2.5c0.2,1,0.6,2.1,0.8,2.9c1.9-1.5,3.6-3.1,4.8-5.2C40.6,32.4,41.2,30.7,41.8,29z"
+          fill="#0277BD"
+        />
+      </svg>
+      <div
+        class="flex flex-col font-bold text-2xl text-white"
+      >
+        <span>
+          Total Cases: 0
+        </span>
+        <span>
+          Total Deaths: 0
+        </span>
+      </div>
+    </div>
+    <ul
+      class="grid grid-cols-2 rounded-lg overflow-hidden gap-0.5"
+    >
+      <li
+        class="continent-card"
+      >
+        <a
+          class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+          data-testid="continentItem"
+          href="/continent/Asia"
+        >
+          <svg
+            class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="md:w-1/2 w-full h-3/5 group-hover:invert"
+            src="Asia.png"
+          />
+          <div
+            class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+          >
+            <h4
+              class="self-center md:self-end"
+            >
+              <span
+                class="text-2xl"
+              >
+                Asia
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              11,111
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+          data-testid="continentItem"
+          href="/continent/Africa"
+        >
+          <svg
+            class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="md:w-1/2 w-full h-3/5 group-hover:invert"
+            src="Africa.png"
+          />
+          <div
+            class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+          >
+            <h4
+              class="self-center md:self-end"
+            >
+              <span
+                class="text-2xl"
+              >
+                Africa
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              22,222
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+          data-testid="continentItem"
+          href="/continent/Europe"
+        >
+          <svg
+            class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="md:w-1/2 w-full h-3/5 group-hover:invert"
+            src="Europe.png"
+          />
+          <div
+            class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+          >
+            <h4
+              class="self-center md:self-end"
+            >
+              <span
+                class="text-2xl"
+              >
+                Europe
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              33,333
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+          data-testid="continentItem"
+          href="/continent/Australia-Oceania"
+        >
+          <svg
+            class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="md:w-1/2 w-full h-3/5 group-hover:invert"
+            src="Australia-Oceania.png"
+          />
+          <div
+            class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+          >
+            <h4
+              class="self-center md:self-end"
+            >
+              <span
+                class="text-2xl"
+              >
+                Australia-Oceania
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              44,444
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+          data-testid="continentItem"
+          href="/continent/North America"
+        >
+          <svg
+            class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="md:w-1/2 w-full h-3/5 group-hover:invert"
+            src="North America.png"
+          />
+          <div
+            class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+          >
+            <h4
+              class="self-center md:self-end"
+            >
+              <span
+                class="text-2xl"
+              >
+                North America
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              55,555
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
+          data-testid="continentItem"
+          href="/continent/South America"
+        >
+          <svg
+            class="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="md:w-1/2 w-full h-3/5 group-hover:invert"
+            src="South America.png"
+          />
+          <div
+            class="flex flex-col gap-2 font-bold text-white items-end self-center md:self-end"
+          >
+            <h4
+              class="self-center md:self-end"
+            >
+              <span
+                class="text-2xl"
+              >
+                South America
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              66,666
+            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
