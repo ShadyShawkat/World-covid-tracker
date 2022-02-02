@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import { fetchCountries } from './redux/covidSlice';
 
 import Nav from './components/Nav/Nav';
-import CountryList from './components/CountryList/CountryList';
+import Home from './components/Home/Home';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -18,7 +18,7 @@ const App = () => {
       <Nav />
       <div className="mt-16 px-12 pt-6">
         <Routes>
-          <Route path="/" element={<CountryList />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </>
