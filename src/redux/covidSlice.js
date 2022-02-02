@@ -15,6 +15,7 @@ export const fetchTotalData = createAsyncThunk(
 const covidSlice = createSlice({
   name: 'covid',
   initialState: {
+    continents: [],
     countries: [],
     error: null,
     totalData: {
@@ -33,6 +34,7 @@ const covidSlice = createSlice({
         state.error = action.error;
       })
       .addCase(fetchTotalData.fulfilled, (state, action) => {
+        state.continents = action.payload;
         state.totalData.totalCases = action.payload.reduce(
           (acc, cur) => acc + cur.cases,
           0,
