@@ -30,6 +30,9 @@ const ContinentDetails = () => {
               className="w-40 invert"
             />
             <div className="flex flex-col font-bold text-2xl text-white">
+              <span className="text-center md:text-left mb-4 text-4xl">
+                {continentDetails.continent}
+              </span>
               <CountUp
                 delay={1}
                 end={continentDetails.cases}
