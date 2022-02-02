@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: GillSans;
+  src: url(Assets/Fonts/GillSans.otf);
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -40,7 +45,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: rgb(235, 235, 235);
+  background-color: #5485e2;
+  font-family: GillSans, sans-serif;
 }
 
 /* A elements that don't have a class get default styles */

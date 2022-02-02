@@ -1,0 +1,8 @@
+.country-card {
+  background-color: #708dc2;
+}
+
+.country-card:nth-child(4n + 2),
+.country-card:nth-child(4n + 3) {
+  background-color: #7c9edf;
+}
