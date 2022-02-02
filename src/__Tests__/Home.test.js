@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 import thunk from 'redux-thunk';
 import configureStore from 'redux-mock-store';
 import Home from '../components/Home/Home';
@@ -46,11 +47,13 @@ describe('Home component', () => {
   test('Test Rendering continents', () => {
     const tree = render(
       <Provider store={store}>
-        <Home />
+        <BrowserRouter>
+          <Home />
+        </BrowserRouter>
       </Provider>,
     );
     expect(tree).toMatchSnapshot();
-    const listItemElements = screen.getAllByTestId('continentItem');
-    expect(listItemElements).toHaveLength(6);
+    const continentItem = screen.getAllByTestId('continentItem');
+    expect(continentItem).toHaveLength(6);
   });
 });
