@@ -20,8 +20,8 @@
 
 ## Live Demo
 
-[Check here the Live Demo!](https://world-covid-tracker-001.netlify.app/)
-[Video showcasing the project and its features](https://www.loom.com/share/11e9c1dff0da4fa783f6f3b63f2fb479)
+ - [Check here the Live Demo!](https://world-covid-tracker-001.netlify.app/)
+ - [Video showcasing the project and its features](https://www.loom.com/share/11e9c1dff0da4fa783f6f3b63f2fb479)
 
 ### Prerequisites
 
