@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 
-import { fetchCountries } from './redux/covidSlice';
+import { fetchCountries, fetchTotalData } from './redux/covidSlice';
 
 import Nav from './components/Nav/Nav';
 import Home from './components/Home/Home';
@@ -11,6 +11,7 @@ const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchCountries());
+    dispatch(fetchTotalData());
   }, [dispatch]);
 
   return (

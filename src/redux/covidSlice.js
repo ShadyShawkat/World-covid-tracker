@@ -7,32 +7,43 @@ export const fetchCountries = createAsyncThunk(
   covidAPI.fetchAllCountries,
 );
 
+export const fetchTotalData = createAsyncThunk(
+  'covid/fetchTotalData',
+  covidAPI.fetchAllContinents,
+);
+
 const covidSlice = createSlice({
   name: 'covid',
   initialState: {
     countries: [],
-    loadingState: 'idle',
     error: null,
+    totalData: {
+      totalCases: 0,
+      totalDeaths: 0,
+    },
   },
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(fetchCountries.pending, (state) => {
-        if (state.loadingState === 'idle') {
-          state.loadingState = 'pending';
-        }
-      })
       .addCase(fetchCountries.fulfilled, (state, action) => {
-        if (state.loadingState === 'pending') {
-          state.loadingState = 'idle';
-        }
         state.countries = action.payload;
         state.error = null;
       })
       .addCase(fetchCountries.rejected, (state, action) => {
-        if (state.loadingState === 'pending') {
-          state.loadingState = 'idle';
-        }
+        state.error = action.error;
+      })
+      .addCase(fetchTotalData.fulfilled, (state, action) => {
+        state.totalData.totalCases = action.payload.reduce(
+          (acc, cur) => acc + cur.cases,
+          0,
+        );
+        state.totalData.totalDeaths = action.payload.reduce(
+          (acc, cur) => acc + cur.deaths,
+          0,
+        );
+        state.error = null;
+      })
+      .addCase(fetchTotalData.rejected, (state, action) => {
         state.error = action.error;
       });
   },
