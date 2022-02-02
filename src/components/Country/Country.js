@@ -1,6 +1,5 @@
 /* eslint-disable object-curly-newline */
 import PropTypes from 'prop-types';
-// import { ImLocation2 } from 'react-icons/im';
 
 const Country = ({
   country: {
@@ -11,7 +10,9 @@ const Country = ({
   },
   index,
 }) => {
-  const bgColor = (fade = 'ff') => `#${((index + 1) % 4 === 2 || (index + 1) % 4 === 3) ? '7c9edf' : '708dc2'}${fade}`;
+  const bgColor = (fade = 'ff') => `#${
+    (index + 1) % 4 === 2 || (index + 1) % 4 === 3 ? '7c9edf' : '708dc2'
+  }${fade}`;
   return (
     <div
       className="flex flex-col px-3 py-10 bg-no-repeat"
@@ -22,7 +23,6 @@ const Country = ({
         backgroundSize: '50% 100%',
       }}
     >
-      {/* <ImLocation2 className="text-6xl self-center" /> */}
       <div className="flex flex-col gap-2 self-end font-bold text-white items-end">
         <h4 className="flex flex-col items-end">
           <span className="text-2xl">{`${country}, \n`}</span>
