@@ -6,6 +6,7 @@ import images from '../../images';
 const Continent = ({ continent: { continent, cases } }) => (
   <Link
     to={`/continent/${continent}`}
+    data-testid="continentItem"
     className="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
   >
     <BsFillArrowUpRightCircleFill className="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white" />

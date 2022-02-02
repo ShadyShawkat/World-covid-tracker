@@ -15,6 +15,7 @@ const Country = ({
     }${fade}`;
   return (
     <div
+      data-testid="countryItem"
       className="flex flex-col px-3 py-10 bg-no-repeat relative"
       style={{
         backgroundImage: `linear-gradient(to right, #ffffff00, ${bgColor(
