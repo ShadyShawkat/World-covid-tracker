@@ -27,12 +27,11 @@ function fetchData() {
 }
 
 function fetchDataAsync() {
-  return (dispatch) => {
-    return Promise.resolve(dispatch(fetchData()));
-  };
+  return (dispatch) => Promise.resolve(dispatch(fetchData()));
 }
 
-let mockStore, store;
+let mockStore; let
+  store;
 
 describe('Home component', () => {
   beforeEach(() => {
