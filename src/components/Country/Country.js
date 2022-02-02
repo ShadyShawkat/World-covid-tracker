@@ -1,6 +1,5 @@
 /* eslint-disable object-curly-newline, implicit-arrow-linebreak */
 import PropTypes from 'prop-types';
-import { BsFillArrowUpRightCircleFill } from 'react-icons/bs';
 
 const Country = ({
   country: {
@@ -16,7 +15,7 @@ const Country = ({
     }${fade}`;
   return (
     <div
-      className="flex flex-col px-3 py-10 bg-no-repeat relative group"
+      className="flex flex-col px-3 py-10 bg-no-repeat relative"
       style={{
         backgroundImage: `linear-gradient(to right, #ffffff00, ${bgColor(
           'aa',
@@ -24,9 +23,8 @@ const Country = ({
         backgroundSize: '50% 100%',
       }}
     >
-      <BsFillArrowUpRightCircleFill className="text-blue-800 right-2 top-2 absolute text-lg group-hover:text-white" />
       <div className="flex flex-col gap-2 self-end font-bold text-white items-end">
-        <h4 className="flex flex-col items-end">
+        <h4 className="flex flex-col items-end text-right">
           <span className="text-2xl">{country}</span>
         </h4>
         <span className="text-xl">{cases.toLocaleString()}</span>
