@@ -30,10 +30,7 @@ const App = () => {
       <div className="mt-16 px-12 pt-6">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/continent/:continentName"
-            element={<ContinentDetails />}
-          />
+          <Route path="/:continentName" element={<ContinentDetails />} />
         </Routes>
       </div>
     </>

@@ -5,7 +5,7 @@ import images from '../../images';
 
 const Continent = ({ continent: { continent, cases } }) => (
   <Link
-    to={`/continent/${continent}`}
+    to={`/${continent}`}
     data-testid="continentItem"
     className="md:flex-row flex flex-col px-3 py-10 hover:bg-gray-600 justify-between group h-full relative"
   >
