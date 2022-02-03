@@ -1,0 +1,8 @@
+.continent-card {
+  background-color: #708dc2;
+}
+
+.continent-card:nth-child(4n + 2),
+.continent-card:nth-child(4n + 3) {
+  background-color: #7c9edf;
+}

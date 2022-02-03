@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Test Rendering countries 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex md:flex-row flex-col gap-6 md:gap-3 items-center w-full justify-center pb-16 pt-6 px-3 bg-blue-dark rounded-t-lg"
+      >
+        <img
+          alt="continent map"
+          class="w-40 invert"
+          src="Africa.png"
+        />
+        <div
+          class="flex flex-col font-bold text-2xl text-white"
+        >
+          <span
+            class="text-center md:text-left mb-4 text-4xl"
+          >
+            Africa
+          </span>
+          <span>
+            Total Cases: 0
+          </span>
+          <span>
+            Total Deaths: 0
+          </span>
+        </div>
+      </div>
+      <ul
+        class="grid md:grid-cols-2 rounded-lg overflow-hidden gap-0.5"
+      >
+        <li
+          class="country-card"
+        >
+          <div
+            class="flex flex-col px-3 py-10 bg-no-repeat relative"
+            data-testid="countryItem"
+            style="background-size: 50% 100%;"
+          >
+            <div
+              class="flex flex-col gap-2 self-end font-bold text-white items-end"
+            >
+              <h4
+                class="flex flex-col items-end text-right"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  Egypt
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                1111
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="country-card"
+        >
+          <div
+            class="flex flex-col px-3 py-10 bg-no-repeat relative"
+            data-testid="countryItem"
+            style="background-size: 50% 100%;"
+          >
+            <div
+              class="flex flex-col gap-2 self-end font-bold text-white items-end"
+            >
+              <h4
+                class="flex flex-col items-end text-right"
+              >
+                <span
+                  class="text-2xl"
+                >
+                  Algeria
+                </span>
+              </h4>
+              <span
+                class="text-xl"
+              >
+                5555
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex md:flex-row flex-col gap-6 md:gap-3 items-center w-full justify-center pb-16 pt-6 px-3 bg-blue-dark rounded-t-lg"
+    >
+      <img
+        alt="continent map"
+        class="w-40 invert"
+        src="Africa.png"
+      />
+      <div
+        class="flex flex-col font-bold text-2xl text-white"
+      >
+        <span
+          class="text-center md:text-left mb-4 text-4xl"
+        >
+          Africa
+        </span>
+        <span>
+          Total Cases: 0
+        </span>
+        <span>
+          Total Deaths: 0
+        </span>
+      </div>
+    </div>
+    <ul
+      class="grid md:grid-cols-2 rounded-lg overflow-hidden gap-0.5"
+    >
+      <li
+        class="country-card"
+      >
+        <div
+          class="flex flex-col px-3 py-10 bg-no-repeat relative"
+          data-testid="countryItem"
+          style="background-size: 50% 100%;"
+        >
+          <div
+            class="flex flex-col gap-2 self-end font-bold text-white items-end"
+          >
+            <h4
+              class="flex flex-col items-end text-right"
+            >
+              <span
+                class="text-2xl"
+              >
+                Egypt
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              1111
+            </span>
+          </div>
+        </div>
+      </li>
+      <li
+        class="country-card"
+      >
+        <div
+          class="flex flex-col px-3 py-10 bg-no-repeat relative"
+          data-testid="countryItem"
+          style="background-size: 50% 100%;"
+        >
+          <div
+            class="flex flex-col gap-2 self-end font-bold text-white items-end"
+          >
+            <h4
+              class="flex flex-col items-end text-right"
+            >
+              <span
+                class="text-2xl"
+              >
+                Algeria
+              </span>
+            </h4>
+            <span
+              class="text-xl"
+            >
+              5555
+            </span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
